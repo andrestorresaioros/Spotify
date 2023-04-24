@@ -18,77 +18,84 @@
   <div class="container-fluid bg-dark">
     <div class="row">
       <div class="col-2">
-        <img src="img/logo.png" class="img-fluid" alt="">
-        <nav class="navbar bg-dark" data-bs-theme="dark">
+        <nav class="navbar bg-dark position-fixed" data-bs-theme="dark">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="navbar-brand" href="#">
-                <img src="img/icons8-casa-96.png" alt="Logo" width="30" height="24"
-                  class="d-inline-block align-text-top">
-                Inicio
+              <div class="col-3 mb-3">
+                <a class="" href="#">
+                  <img src="img/logo.png" class="img-fluid " alt="">
+                </a>
+              </div>
+            <li class="nav-item mb-2 ">
+              <a class="text-decoration-none text-white " href="inicio.html">
+                <img src="img/icons8-casa-96.png" alt="Logo" width="27" height="24" class="img-fluid">
+                <span class="align-middle ">Inicio</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="navbar-brand" href="#">
-                <img src="img/icons8-búsqueda-96.png" alt="Logo" width="30" height="24"
+            <li class="nav-item mb-2">
+              <a class="text-decoration-none text-white" href="#">
+                <img src="img/icons8-búsqueda-96.png" alt="Logo" width="27" height="24"
                   class="d-inline-block align-text-top">
-                Buscar
+                <span class="align-middle">Buscar</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="navbar-brand" href="#">
-                <img src="img/9.png" alt="Logo" width="30" height="24"
-                  class="d-inline-block align-text-top">
-                Tu biblioteca
+            <li class="nav-item mb-5">
+              <a class="text-decoration-none text-white" href="#">
+                <img src="img/9.png" alt="Logo" width="27" height="24" class="d-inline-block align-text-top">
+                <span class="align-middle"> Tu biblioteca
+                </span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="navbar-brand" href="#">
-                <img src="img/100.png" alt="Logo" width="30" height="24"
-                  class="d-inline-block align-text-top">
-                Crear lista
+            <li class="nav-item mb-2">
+              <a class="text-decoration-none text-white" href="#">
+                <img src="img/100.png" alt="Logo" width="27" height="24" class="d-inline-block align-text-top">
+                <span class="align-middle"> Crear lista
+                </span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="navbar-brand" href="#">
-                <img src="img/11.png" alt="Logo" width="30" height="24"
-                  class="d-inline-block align-text-top">
-                Canciones que te gus...
+            <li class="nav-item mb-5 p-0">
+              <a class="text-decoration-none text-white" href="#">
+                <img src="img/11.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <span class="align-middle"> Canciones que te gus...
+                </span>
               </a>
             </li>
           </ul>
+          <span class="position-fixed bottom-0 col text-center">
+            <button type="button" class="btn btn-dark border-white position-relative">🌐 Español de España</button>
+          </span>
         </nav>
-        <span class="border border-white">
-          <button type="button" class="btn btn-dark">🌐 Español de España</button>
-        </span>
       </div>
-      <div class="col-10">
-        <nav class="navbar navbar-expand-lg  bg-dark" data-bs-theme="dark">
+      <div class="col-10 position-relative">
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"><</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">></a>
-                </li>
-              </ul>
-              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                <button type="button" class="btn btn-dark">Registrarte</button>
-                <button type="button" class="btn btn-light">Iniciar sesión</button>
-              </div>
-            </div>
+                <a class="navbar-brand" href="#">>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    </li>
+                  </ul>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button type="button" class="btn btn-dark">Registrarte</button>
+                    <a href="login.html">
+                      <button type="button" class="btn btn-light">Iniciar sesión</button>
+                    </a>
+                  </div>
+                </div>
           </div>
         </nav>
-        <h3 class="text-light bg-dark">Enfoque</h3>
+        <h3 class="text-light bg-dark ">Enfoque</h3>
         <div class="row">
           <div class="col">
-            <div class="card bg-dark" style="width: 13rem;">
-              <img src="img/1.png" class="card-img-top" alt="...">
+            <div class="card bg-dark" style="width: 15rem;">
+              <img src="img/1.png" class="card-img-top shadow-lg p-3 bg-body-dark rounded" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-light bg-dark">Peaceful Piano</h5>
                 <p class="card-text text-light bg-dark">Relax and indulge with beautiful
@@ -98,8 +105,9 @@
             </div>
           </div>
           <div class="col">
-            <div class="card bg-dark" style="width: 13rem;">
-              <img src="img/2.png" class="card-img-top" alt="...">
+            <div class="card bg-dark" style="width: 15rem;">
+              <img src="img/2.png" class="card-img-top shadow-lg p-3 bg-body-dark rounded
+              " alt="...">
               <div class="card-body">
                 <h5 class="card-title text-light">Deep Focus</h5>
                 <p class="card-text text-light">Keep calm and focus with ambient and post-rock music.</p>
@@ -107,8 +115,8 @@
             </div>
           </div>
           <div class="col">
-            <div class="card bg-dark" style="width: 13rem;">
-              <img src="img/3.png" class="card-img-top" alt="...">
+            <div class="card bg-dark" style="width: 15rem;">
+              <img src="img/3.png" class="card-img-top shadow-lg p-3 bg-body-dark rounded" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-light">Instrumental Study</h5>
                 <p class="card-text text-light">Focus with soft study music in the background. </p>
@@ -116,8 +124,8 @@
             </div>
           </div>
           <div class="col">
-            <div class="card bg-dark" style="width: 13rem;">
-              <img src="img/4.png" class="card-img-top" alt="...">
+            <div class="card bg-dark" style="width: 15rem;">
+              <img src="img/4.png" class="card-img-top shadow-lg p-3 bg-body-dark rounded" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-light">Focus Flow</h5>
                 <p class="card-text text-light">Uptempo instrumental hip hop beats.</p>
@@ -129,7 +137,7 @@
         <div class="row">
           <div class="col">
             <div class="card bg-dark" style="width: 13rem;">
-              <img src="img/5.png" class="card-img-top" alt="...">
+              <img src="img/5.png" class="card-img-top shadow-lg p-3 bg-body-dark rounded" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-light bg-dark">Today's Top Hits</h5>
                 <p class="card-text text-light bg-dark">The Weeknd is on top of the Hottest 50!</p>
@@ -138,7 +146,7 @@
           </div>
           <div class="col">
             <div class="card bg-dark" style="width: 13rem;">
-              <img src="img/6.png" class="card-img-top" alt="...">
+              <img src="img/6.png" class="card-img-top shadow-lg p-3 bg-body-dark rounded" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-light">RapCaviar</h5>
                 <p class="card-text text-light">Music from Lil Uzi Vert, Drake and Moneybagg Yo. </p>
@@ -147,7 +155,7 @@
           </div>
           <div class="col">
             <div class="card bg-dark" style="width: 13rem;">
-              <img src="img/7.png" class="card-img-top" alt="...">
+              <img src="img/7.png" class="card-img-top shadow-lg p-3 bg-body-dark rounded" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-light">All Out 2010s</h5>
                 <p class="card-text text-light">The biggest songs of the 2010s. </p>
@@ -156,7 +164,7 @@
           </div>
           <div class="col">
             <div class="card bg-dark" style="width: 13rem;">
-              <img src="img/8.png" class="card-img-top" alt="...">
+              <img src="img/8.png" class="card-img-top shadow-lg p-3 bg-body-dark rounded" alt="...">
               <div class="card-body">
                 <h5 class="card-title text-light">Rock Classics</h5>
                 <p class="card-text text-light">Rock legends & epic songs that continue to inspire generations. Cover:
@@ -167,7 +175,5 @@
         </div>
       </div>
     </div>
-
 </body>
-
 </html>
