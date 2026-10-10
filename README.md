@@ -9,6 +9,14 @@ Réplica de la interfaz web de Spotify construida con HTML, CSS y Bootstrap como
 
 **Demo:** https://andrestorresaioros.github.io/Spotify/
 
+## Vista previa
+
+![Pantalla principal con playlists](capturas/spotify-inicio.jpg)
+
+| Estadísticas y reproductor | Inicio de sesión |
+|---|---|
+| ![Estadísticas de géneros y canciones](capturas/spotify-estadisticas.png) | ![Pantalla de inicio de sesión](capturas/spotify-login.png) |
+
 ## Pantallas
 
 | Página | Contenido |
